@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dante Rodriguez</h1> 
-<h3 align="center">A Student and software development apprentice</h3>
+<h3 align="center">Computer Systems Engineer Student at Instituto Tecnológico de la Laguna</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
