@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Dante Rodriguez</h1> 
 <h3 align="center">Computer Systems Engineer Student at Instituto Tecnológico de la Laguna</h3>
 <p align="center">
-  <img src="dk.gif" alt="GIF de presentación" width="800"/>
+  <img src="dk.gif" alt="GIF de presentación" width="400"/>
 </p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
