@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Dante Rodriguez</h1> 
 <h3 align="center">Computer Systems Engineer Student at Instituto Tecnológico de la Laguna</h3>
-
+<p align="center">
+  <img src="dk.gif" alt="GIF de presentación" width="800"/>
+</p>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/danyroh01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="danyroh01" height="30" width="40" /></a>
