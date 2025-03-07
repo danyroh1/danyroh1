@@ -10,10 +10,11 @@
 <a href="https://www.youtube.com/c/dante rodriguez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="dante rodriguez" height="30" width="40" /></a>
 <a href="https://discord.gg/VpYAHDpw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/VpYAHDpw" height="30" width="40" /></a>
 <a href="https://www.twitch.tv/danyroh1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitch.svg" alt="danyroh1" height="30" width="40" /></a>
+
+  <img src="jake.gif" alt="GIF de presentación" width="50"/>
+
 </p>
-<p align="center">
-  <img src="jake.gif" alt="GIF de presentación" width="400"/>
-</p>
+
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
