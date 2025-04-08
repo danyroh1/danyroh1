@@ -1,0 +1,194 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 70px; /* Evita que el contenido se oculte bajo el header */
+}
+
+/* Scroll personalizado */
+body::-webkit-scrollbar {
+    width: 8px; /* Ancho del scroll */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent; /* Fondo transparente */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(51, 51, 51, 0.5); /* Gris translúcido */
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid transparent; /* Espacio alrededor */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(51, 51, 51, 0.7); /* Más visible al pasar cursor */
+}
+
+/* Firefox */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(51, 51, 51, 0.5) transparent;
+}
+
+/* Contenedor principal */
+#container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header fijo */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.95); /* Fondo oscuro translúcido */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+.seccion {
+    padding: 100px 20px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 100px auto 40px auto;
+}
+
+/* Ajuste especial para la primera sección */
+.seccion:first-of-type {
+    margin-top: 50px;
+}
+
+/* Estilos de artículos */
+.article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-left: 5px solid #333;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside */
+aside {
+    background: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de búsqueda */
+aside form {
+    display: flex;
+    flex-direction: column;
+}
+
+aside input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+aside input[type="submit"] {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+aside input[type="submit"]:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Clear fix */
+.clear {
+    clear: both;
+}
+/* Estilo para los iconos de redes */
+.seccion a img {
+    margin-right: 45px;
+    transition: transform 0.3s;
+}
+
+.seccion a img:hover {
+    transform: scale(1.5); /* Efecto de zoom al pasar el cursor */
+}
+
+/* Alineación */
+.seccion {
+    text-align: center;
+}
+
+.seccion p {
+    margin-bottom: 50px;
+}
+.spotify-slider {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 30px auto;
+    max-width: 90%;
+    overflow: hidden;
+}
+.slider-track {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+.slider-item {
+    min-width: 200px;
+    background: #1DB954;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.slider-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
