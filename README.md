@@ -1,4 +1,3 @@
-hola podrias agregar en erramientas Cisco pACKET tracer?
 <h1 align="center">Hi 👋, I'm Dante Rodriguez</h1> 
 <h3 align="center">Computer Systems Engineer Student at Instituto Tecnológico de la Laguna</h3>
 <p align="center">
